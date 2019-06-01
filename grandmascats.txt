@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class GrandmasGoddamnCat
+{
+   public static void main(String[] args)
+   {
+      String spaceBar = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+   
+      Scanner input = new Scanner(System.in);
+
+      System.out.println("Greetings Player, please enter your name: ");
+      String userName = input.nextLine();
+      System.out.println("Thank you, " + userName + ". Let the game begin...");
+      System.out.println(spaceBar);
+      
+      
+      System.out.println("What a cozy morning, it's a few days before the winter holiday begins."
+                            + "\nFamily has slowly trickled in, all gathering under one roof." 
+                            + "\nSome you like better than others." 
+                            + "\nThe last to arrive is your slightly eccentric grandmother, Grandma.");
+      System.out.println(spaceBar);
+      
+      System.out.println("Grandma approaches you on this fine morning, looking quite distraught." 
+                             + "\n'" + userName + "', she says, 'would you be a dear, and go back to my house to pick up something?'" 
+                             + "\nA sense of dread fills you, you love your Grandma dearly, but Good Lord that house..."
+                             + "\nYou agree to this, it's Grandma, you must. You ask her what you're suppose to grab." 
+                             + "\n'Well, I forgot my cat you see, and he doesn't like being left alone for long periods of time.'"
+                             + "\nOh, you know. This is the cat from hell."
+                             + "\n'You just need to grab his special treats from the fridge and he'll come running,' Grandma continues. 'But, the house might be a little...guarded, be careful, " + userName + ".'");
+      System.out.println(spaceBar);
+      
+      System.out.println("You arrive at Grandma's house by noon, even in broad daylight, your Grandma's pitchblack colonial house is quite daunting."
+                             + "\nYou walk through the decreipt gates to the front door, why hasn't Grandma fixed that?"
+                             + "\nYou aproach the front door and unlock it. The door swings open."
+                             + "\nYou take a deep breath, and walk through...");     
+                             
+                             
+                             
+                                                
+   }
+ public static void foyerVer1()
+   {
+      System.out.println("You are in the foyer, you look around briefly and see in front of you the staircase to the upstairs." 
+                           + "However, there is a large gate across them with a huge padlock, no getting up there..."
+                           + "To your right is the dining room door, and to the left is the sitting room."
+                           + "What do you do?"
+                           + "I.) Open dining room door."
+                           + "II.) Go into sitting room."
+                           
+                           
+   
+   
+   }
+   
+}
+
+
